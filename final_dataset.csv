@@ -1,0 +1,11 @@
+hemoglobin,rbc_count,wbc_count,platelet_count,neutrophils_pct,lymphocytes_pct,fasting_glucose,pp_glucose,hba1c,mean_blood_glucose,total_cholesterol,triglycerides,hdl,ldl,vldl,urea,creatinine,uric_acid,t3,t4,tsh,vitamin_d,vitamin_b12,report_id
+15.0,4.5,,200.0,60.0,30.0,,,1.0,,2.0,130.0,46.0,33.0,26.0,20.0,0.9,5.0,2.0,4.0,4.0,25.0,280.0,report1
+15.0,6.0,,8.0,79.0,,,,,,,,,,,,,,,,,,,report10
+,,,370.0,87.7,5.9,,,,,,,,,,,,,,,,,,report2
+13.7,,8120.0,,76.8,13.3,,,,,,,,,,,,,,,,,,report3
+,15.0,,15.0,15.0,15.0,,,,,,,,,,,,,,,,,,report4
+14.5,4.79,10570.0,150000.0,73.0,19.0,141.0,,7.1,157.07,,168.0,2.0,100.39,33.6,18.0,25.0,4.9,1.01,7.84,0.8199,8.98,12.0,report5
+,,,,,,,,,,,,,,,,,,3.0,4.0,1000.0,,,report6
+,,,,,,,,,,,,,,,,,,3.8,9.0,1.65,,,report7
+,,,,,,,,,,,,,,,,,,,,,,,report8
+,,,,,,,,,,,,,,,22.0,1.01,4.0,,,,,,report9

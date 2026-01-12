@@ -34,7 +34,7 @@ with st.expander("💡 Pro Health Tips"):
     st.write("😴 **Sleep:** 7-9 hours is just as important as your diet.")
     st.write("🧂 **Sodium:** Keep it under 2300mg to avoid bloating.")
 
-# --- 3. WEB INTERFACE UII ---
+# --- 3. WEB INTERFACE UIIi ---
 st.set_page_config(page_title="AI Health Hub", layout="wide")
 st.title("🥗 Personal AI Diet & Health Hub")
 

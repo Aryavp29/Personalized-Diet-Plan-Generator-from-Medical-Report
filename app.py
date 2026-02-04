@@ -65,7 +65,12 @@ h3 { color: #1B5E20; }
 """, unsafe_allow_html=True)
 
 # ---------------- API ----------------
-API = st.secrets["GROQ"]["API_KEY"]
+API = st.secrets.get("GROQ_API_KEY")
+
+if not API:
+    st.error("GROQ_API_KEY not found in secrets!")
+    st.stop()
+
 client = Groq(api_key=API)
 
 # ---------------- HELPERS ----------------

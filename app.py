@@ -5,6 +5,7 @@ from groq import Groq
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
 from io import BytesIO
+from dotenv import load_dotenv
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
@@ -65,8 +66,9 @@ h3 { color: #1B5E20; }
 """, unsafe_allow_html=True)
 
 # ---------------- API ----------------
-os.environ["GROQ_API_KEY"] = API
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+load_dotenv()
+API = os.getenv("GROQ_API_KEY") or st.secrets.get("GROQ_API_KEY")
+client = Groq(api_key=API)
 
 # ---------------- HELPERS ----------------
 def clean_text(t): 

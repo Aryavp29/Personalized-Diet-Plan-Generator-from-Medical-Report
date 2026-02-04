@@ -65,7 +65,7 @@ h3 { color: #1B5E20; }
 """, unsafe_allow_html=True)
 
 # ---------------- API ----------------
-os.environ["GROQ_API_KEY"] = "YOUR_GROQ_API_KEY_HERE"
+os.environ["GROQ_API_KEY"] = API
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 # ---------------- HELPERS ----------------
